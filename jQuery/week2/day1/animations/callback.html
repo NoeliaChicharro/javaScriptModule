@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Style -->
+    <style>
+        *, *:after, *:before{
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: gray;
+        }
+
+        button{
+            width: 4rem;
+            height: 2rem;
+            font-family: SansSerif;
+            border-radius: 5px;
+            background-color: #9c9c9c;
+            border: none;
+        }
+
+        div{
+            width: 20rem;
+            height: 20rem;
+            background-color: darkgoldenrod;
+            margin: 1rem 0 0 0;
+            border: none;
+            display: none;
+        }
+
+    </style>
+
+    <title>Callback</title>
+</head>
+
+<body>
+<button id="animate">animate</button>
+
+<div></div>
+
+<script>
+
+    $(document).ready(() => {
+        $('#animate').click(() => {
+            $('div').toggle('slide', () => {
+                $('div').css('background-color', 'coral');
+            });
+        });
+    });
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* === Small CSS Reset === */
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+body{
+  background: #333;
+  font-family: 'Courier New', Courier, monospace;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
+
+.container > *{
+  margin: 2em;
+}
+
+h1,h2,h3{
+  color: rgb(255, 118, 118);
+  margin: 1em 0;
+  text-decoration: underline;
+}
+
+nav{
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  border: solid 1px rgb(255, 118, 118);
+  padding: 1em;
+  font-size: 1.4em;
+}
+
+nav div.navBox{
+  display: none;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+}
+nav ul li{
+  padding: 0.5em 0;
+}
+
+nav ul li:hover{
+  color:black;
+}
+nav:hover{
+ background: rgb(255, 118, 118);
+ cursor: pointer;
+ border: rgb(165, 0, 0) 1px solid;
+}
+.examples{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.examples article{
+  border: solid 1px rgb(255, 118, 118);
+  padding: 3em;
+}
+
+.active{
+  background: rgb(255, 199, 69);
+  color: black;
+}
+
+footer{
+  background: grey;
+  border: white 1px solid;
+  font-style: 'comic-sans', serif;
+}
+
+.comments{
+  margin-top: 6em;
+}
+
+.comment{
+  margin: 1em 0;
+  border: solid 1px rgb(255, 118, 118);
+  padding: 1em;
+  position: relative;
+}
+
+.user{
+  font-size: 1.2em;
+  color: rgb(255, 199, 69);
+}
+
+.title{
+  font-size: 1.4em;
+  color: rgb(255, 118, 118);
+}
+
+.commentID{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+/* projects slider */ 
+.projects{
+  position: relative;
+}
+.row{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.goright, .goleft{
+  position: absolute;
+  top: 105%;
+  font-size: 2em;
+  border: solid 1px rgb(255, 118, 118);
+  padding: 0 1em;
+}
+.goleft{
+  left: 0;
+}
+.goright{
+  right: 0;
+}
+
+.goright:hover, .goleft:hover{
+  background:rgb(255, 199, 69);
+  color: black;
+  cursor: pointer;
+
+}
+.row .examples{
+  display: none;
+}
+
+.row .examples.showing{
+  display: grid;
+}
+

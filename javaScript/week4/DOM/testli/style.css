@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  display: flex;
+}
+
+main{
+  margin: 0 1.5rem 0 0;
+}
+
+#box, #first, form{
+  margin: 0 0 0 2rem;
+}
+
+#title{
+  margin: 0.5rem 0 0.5rem 2rem;
+}
+
+#box{
+  width: 500px;
+  height: 500px;
+  background-color: #161719;
+}
+
+.roundy{
+  border-radius: 30px;
+}
+
+button{
+  width: 10rem;
+  height: 2rem;
+  background-color: #753634;
+  margin: 1rem 0 1rem 0;
+}
+
+
+.active{
+  background-color: #556b3f;
+  border: 2px solid green;
+}
+
+button, #box{
+  border: 2px solid black;
+}
+
+/* Aside */
+h4{
+  margin: 1rem 0 0 2rem;
+}
+
+#secondTitle{
+  margin: 0.5rem 0 0.5rem 0 ;
+}
+
+td{
+  padding: 0 0.7rem 0 0;
+}
+
+

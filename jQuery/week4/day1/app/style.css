@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*, *:after, *:before{
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  background-color: gray;
+  font-family: TSTAR;
+}
+
+.template{
+  width: 15rem;
+  height: auto;
+  background: #b0728b;
+  border-radius: 5px;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+p{
+  margin: 0.5rem;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+p, h2{
+  text-align: center;
+}

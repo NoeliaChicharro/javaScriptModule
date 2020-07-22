@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*, *:after, *:before{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: gray;
+}
+
+.accordionContainer{
+  position: relative;
+  width: 30rem;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.set{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #ffbedb;
+}
+
+.set > a{
+  display: block;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  color: gray;
+  font-weight: 400;
+  border-bottom: 1px solid #ba5b7d;
+}
+
+.set > a.active{
+  background: #d99cff;
+  color: gray;
+}
+
+.icon{
+  width: 100%;
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon > i{
+  color: gray;
+}
+
+.content{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #ffbedb;
+  border-bottom: 1px solid #ba5b7d;
+  display: none;
+}
+
+.content p{
+  padding: 1rem 1.5rem;
+  color: gray;
+}

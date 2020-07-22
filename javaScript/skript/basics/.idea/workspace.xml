@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e29b5ae4-d84b-4c55-9087-4a4f012cec96" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1PK3MOMFSfgWZG4w199cBl75XMH" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.doWhile.js">
+    <configuration name="breakContinue.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="breakContinue.js" working-dir="$PROJECT_DIR$/week3Day2">
+      <method v="2" />
+    </configuration>
+    <configuration name="console.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="console.js" working-dir="$PROJECT_DIR$/week3Day2">
+      <method v="2" />
+    </configuration>
+    <configuration name="doWhile.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="doWhile.js" working-dir="$PROJECT_DIR$/week3Day2">
+      <method v="2" />
+    </configuration>
+    <configuration name="functions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="functions.js" working-dir="$PROJECT_DIR$/week3Day1">
+      <method v="2" />
+    </configuration>
+    <configuration name="stringMethods.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="stringMethods.js" working-dir="$PROJECT_DIR$/week2Day2">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.doWhile.js" />
+        <item itemvalue="Node.js.console.js" />
+        <item itemvalue="Node.js.breakContinue.js" />
+        <item itemvalue="Node.js.functions.js" />
+        <item itemvalue="Node.js.stringMethods.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e29b5ae4-d84b-4c55-9087-4a4f012cec96" name="Default Changelist" comment="" />
+      <created>1565608912025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565608912025</updated>
+      <workItem from="1565608914252" duration="3299000" />
+      <workItem from="1565799304385" duration="4874000" />
+      <workItem from="1565858251744" duration="5637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

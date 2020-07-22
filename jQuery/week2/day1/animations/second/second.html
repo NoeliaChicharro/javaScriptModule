@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Style -->
+    <style>
+        *, *:after, *:before{
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: gray;
+        }
+
+        div{
+            font-family: SansSerif;
+        }
+
+        .title{
+            width: 8rem;
+            height: 3rem;
+            background-color: lightblue;
+            border: none;
+            margin: 4rem;
+        }
+
+        #red{
+            width: 9rem;
+            height: 8rem;
+            background-color: lightcoral;
+            border: none;
+            display: none;
+            margin: 0 0 0 4rem;
+        }
+
+        #orange{
+            width: 9rem;
+            height: 8rem;
+            background-color: coral;
+            border: none;
+            display: none;
+            margin: 0 0 0 4rem;
+        }
+    </style>
+
+    <title>Second</title>
+</head>
+<body>
+<div class="title" id="fade">fade</div>
+<div id="red"></div>
+
+<hr>
+
+<div class="title" id="toggle">toggle</div>
+<div id="orange">
+    <ul>
+        <li>foo</li>
+        <li>bar</li>
+        <li>baz</li>
+        <li>fuu</li>
+    </ul>
+</div>
+
+<!-- Script -->
+<script>
+    $(document).ready(function () {
+
+        // fade
+        $('#fade').hover(function () {
+            $('#red').fadeOut('slow', function () {
+                console.log('fade out!')
+            });
+        }, function () {
+            $('#red').fadeIn('slow', function () {
+                console.log('fade in')
+            });
+        });
+
+        // toggle
+        $('#toggle').click(function () {
+            $('#orange').toggle('slow')
+        });
+    });
+</script>
+
+</body>
+</html>

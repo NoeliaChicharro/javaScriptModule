@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+#loginBox{
+    width: 400px;
+    height: 100px;
+    background: azure;
+    padding: 1rem;
+    display: none;
+}
+
+#loginBox.show{
+    display: flex;
+}
+
+label{
+    display: block;
+}
+
+input{
+    width: 10rem;
+}
+
+label{
+    text-anchor: end;
+}
+

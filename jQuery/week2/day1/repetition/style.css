@@ -1,0 +1,26 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+#button{
+    background-color: hotpink;
+    width: 6rem;
+    height: 4rem;
+}
+
+div{
+    width: 50vw;
+    height: 50vh;
+    background-color: hotpink;
+    display: none;
+}
+
+.show{
+    width: 50vw;
+    height: 50vh;
+    background-color: hotpink;
+}

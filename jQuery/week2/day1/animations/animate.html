@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Animate</title>
+
+    <style>
+        *, *:after, *:before{
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: gray;
+        }
+
+        button{
+            width: 4rem;
+            height: 2rem;
+            font-family: SansSerif;
+            border-radius: 5px;
+            background-color: #9c9c9c;
+            border: none;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<button>Push me</button>
+<div>Boxy the box</div>
+
+<script>
+
+    $(document).ready(() => {
+        // on is an event listener
+        $('button').on('click', () => {
+            // console.log('clicked')
+            $('div').animate({
+                height: 400,
+                width: 400,
+                left: 300
+            }, 2000, () => {
+                console.log('animation done!')
+                });
+        });
+    });
+
+</script>
+
+
+</body>
+</html>

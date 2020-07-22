@@ -1,0 +1,103 @@
+/* Table */
+#table{
+  display: table;
+  margin: 0 auto;
+}
+
+#row1, #row2, #row3{
+  display: table-row;
+}
+
+#cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8, #cell9{
+  display: table-cell;
+}
+
+
+/* Image */
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10{
+  display: table-cell;
+  width: 150px;
+  height: 150px;
+  border: 1px solid azure;
+  background-image: url("../images/Asset 1.png");
+  cursor: pointer;
+}
+
+.tile1{
+  background-position: left top;
+}
+
+.tile2{
+  background-position: center top;
+}
+
+.tile3{
+  background-position: right top;
+}
+
+.tile4{
+  background-position: left center;
+}
+
+.tile5{
+  background-position: center center;
+}
+
+.tile6{
+  background-position: right center;
+}
+
+.tile7{
+  background-position: left bottom;
+}
+
+.tile8{
+  background-position: center bottom;
+}
+
+.tile9, .tile10{
+  background: gray;
+  cursor: default;
+}
+
+/* Button */
+#stripeShuffle{
+  width: 100vw;
+  height: 6vh;
+  background: #9d9d9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+
+#shuffle{
+  width: 7rem;
+  height: 1.5rem;
+  font-family: TSTAR;
+  font-size: 1.3rem;
+  background: #9d9d9d;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

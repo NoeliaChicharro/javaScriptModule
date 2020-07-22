@@ -1,0 +1,98 @@
+/** == Reset == **/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+/* Wrappers */
+#wrapper{
+    width: 10rem;
+    height: 100vh;
+    margin: 1rem 0 0 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+#dates{
+    display: flex;
+    flex-direction: column;
+}
+
+#line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Dates */
+span{
+    display: block;
+    position: relative;
+    transform: translate(-35px, 0);
+}
+
+/* Timeline */
+#start{
+    background-color: #77c12d;
+}
+
+#end{
+    background-color: #9d0000;
+}
+
+.line{
+    width: 0.5rem;
+    height: 6rem;
+    background-color: #344040;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6983e6;
+}
+
+.circle:hover{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+/* Text Boxes */
+.text{
+    display: none;
+}
+
+.show{
+    width: 10rem;
+    height: 5rem;
+    background-color: lightblue;
+    border-radius: 5px;
+    position: relative;
+    transform: translate(5px, -18px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

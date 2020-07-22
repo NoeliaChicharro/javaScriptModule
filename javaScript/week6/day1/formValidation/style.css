@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  width: 90%;
+  height: 2rem;
+  font-family: TSTAR;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  border-radius: 2px;
+}
+
+label{
+  font-family: TSTAR;
+  color: azure;
+  margin: 2rem 0 0 0;
+}
+
+textarea{
+  width: 90%;
+  height: 10vh;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  border-radius: 2px;
+}
+
+button{
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 2.5rem 0 0 0;
+}
+
+span{
+  display: block;
+  position: absolute;
+  color: #b4190b;
+  font-size: 0.8rem;
+  padding: 0.6rem 0 0 0;
+}
+
+

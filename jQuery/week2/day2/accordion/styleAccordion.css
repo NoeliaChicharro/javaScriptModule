@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.accordionContainer{
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.set{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #a4ff9c;
+}
+
+.set > a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    border-bottom: 1px solid #364f3a;
+}
+
+.set > a.active{
+    background-color: hotpink;
+    color: #d6ffd7;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #D6FFD7;
+    border-bottom: 1px solid darkslategray;
+    display: none;
+}
+
+.content p{
+    padding: 10px 15px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

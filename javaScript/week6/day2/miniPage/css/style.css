@@ -1,0 +1,54 @@
+/* Navigation */
+aside{
+  width: 200px;
+  height: 100vh;
+  background-color: #4e674e;
+}
+
+nav{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin: 3rem 0 0 0;
+}
+
+a{
+  text-decoration: none;
+  font-family: TSTAR, Arial;
+  color: azure;
+  font-size: 1.6rem;
+}
+
+/* Slider */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

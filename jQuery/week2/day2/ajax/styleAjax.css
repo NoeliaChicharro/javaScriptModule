@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    font-family: monospace;
+    margin: 0 auto;
+}
+
+h4, p, span{
+    font-family: monospace;
+}
+
+#wrapper{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    padding: 1rem 0 0 0;
+    flex-direction: column;
+}
+
+#friends{
+    width: auto;
+    height: auto;
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.persona{
+    width: 300px;
+    height: auto;
+    background: #d6ffd7;
+    margin: 0.5rem;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    height: 250px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    height: auto;
+    width: 300px;
+    padding: 0 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+i{
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: darkslategray;
+}
+
+.photo{
+    width: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px gray ;
+    padding: 1rem 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
